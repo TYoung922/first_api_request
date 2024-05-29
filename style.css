@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+}
+
+.cards {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  border: solid blue;
+  border-radius: 5px;
+  border-width: 6px;
+  padding: 10px;
+}
+
+.card {
+  width: calc(33.333% - 10px);
+  height: calc(33.333% - 10px);
+  position: relative;
+  margin: 5px;
+  border: solid forestgreen;
+  border-width: 4px;
+  padding: 10px;
+  background-color: #ddfddd;
+}
