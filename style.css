@@ -6,21 +6,24 @@
 
 body {
   height: 100vh;
-  background-color: beige;
+  background-color: white;
   display: flex;
 }
 
 .cards {
-  width: 640px;
-  height: 640px;
+  width: 1100px;
+  height: 1100px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   perspective: 1000px;
   border: solid blue;
   border-radius: 5px;
   border-width: 6px;
-  padding: 10px;
+  padding: 50px;
+  background-color: beige;
+  box-shadow: 10px 10px 20px black;
 }
 
 .card {
@@ -30,6 +33,21 @@ body {
   margin: 5px;
   border: solid forestgreen;
   border-width: 4px;
-  padding: 10px;
+  padding: 15px;
   background-color: #ddfddd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  border-spacing: 15px;
+  text-align: center;
+}
+
+img {
+  max-width: 200px;
+  max-height: 90px;
+  object-fit: scale-down;
+  margin: 10px;
+}
+
+h2 {
+  text-decoration: underline;
 }
